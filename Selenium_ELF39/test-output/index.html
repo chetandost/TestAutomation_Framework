@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\JAVA Program\Selenium_ELF39\RegressionPOM_testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Register_Test" class="method navigator-link" hash-for-method="TC01(Sankalp, Sangapur, Sanku123@gmail.com, Sanku@12345, Sanku@12345)">TC01(Sankalp, Sangapur, Sanku123@gmail.com, Sanku@12345, Sanku@12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Login_Test" class="method navigator-link" hash-for-method="TC02(Sanku123@gmail.com, Sanku@12345)">TC02(Sanku123@gmail.com, Sanku@12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Login_Test" class="method navigator-link" hash-for-method="TC02(Sanku123@gmail.com, Sanku@12345)">TC02(Sanku123@gmail.com, Sanku@12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Search_Test" class="method navigator-link" hash-for-method="TC03(Computers)">TC03(Computers)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_ShoppingCart_Test" class="method navigator-link" hash-for-method="TC04">TC04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Wishlist_Test" class="method navigator-link" hash-for-method="TC05">TC05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_ComputersTest" class="method navigator-link" hash-for-method="TC06">TC06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_GiftCard_Test" class="method navigator-link" hash-for-method="TC06(1, 2, 1)">TC06(1, 2, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Jewellery_Test" class="method navigator-link" hash-for-method="TC07(1, 2, 1)">TC07(1, 2, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Apparel_and_shoesTest" class="method navigator-link" hash-for-method="TC07(1, 2, 1)">TC07(1, 2, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Digital_DownloadsTest" class="method navigator-link" hash-for-method="TC08(0, 1, 1)">TC08(0, 1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Books_Test" class="method navigator-link" hash-for-method="TC09(1, 2, 1)">TC09(1, 2, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_advanceserch_Test" class="method navigator-link" hash-for-method="TC10(computers, 2, 1, 1000, 5000)">TC10(computers, 2, 1, 1000, 5000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Vote_Test" class="method navigator-link" hash-for-method="TC11">TC11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_Electronics_Test" class="method navigator-link" hash-for-method="TC12">TC12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pom_testcase.DWS_ContactUs_Test" class="method navigator-link" hash-for-method="test01(Sankalp, Sankau9@gmail.com, Test contact us )">test01(Sankalp, Sankau9@gmail.com, Test contact us )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Vote_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11">
+                  </a> <!-- TC11 -->
+                  <span class="method-name">TC11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Electronics_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12">
+                  </a> <!-- TC12 -->
+                  <span class="method-name">TC12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Jewellery_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07(1, 2, 1)">
+                  </a> <!-- TC07(1, 2, 1) -->
+                  <span class="method-name">TC07</span>
+                  <span class="parameters">(1, 2, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02(Sanku123@gmail.com, Sanku@12345)">
+                  </a> <!-- TC02(Sanku123@gmail.com, Sanku@12345) -->
+                  <span class="method-name">TC02</span>
+                  <span class="parameters">(Sanku123@gmail.com, Sanku@12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02(Sanku123@gmail.com, Sanku@12345)">
+                  </a> <!-- TC02(Sanku123@gmail.com, Sanku@12345) -->
+                  <span class="method-name">TC02</span>
+                  <span class="parameters">(Sanku123@gmail.com, Sanku@12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_ComputersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06">
+                  </a> <!-- TC06 -->
+                  <span class="method-name">TC06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Search_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03(Computers)">
+                  </a> <!-- TC03(Computers) -->
+                  <span class="method-name">TC03</span>
+                  <span class="parameters">(Computers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_ShoppingCart_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04">
+                  </a> <!-- TC04 -->
+                  <span class="method-name">TC04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_ContactUs_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01(Sankalp, Sankau9@gmail.com, Test contact us )">
+                  </a> <!-- test01(Sankalp, Sankau9@gmail.com, Test contact us ) -->
+                  <span class="method-name">test01</span>
+                  <span class="parameters">(Sankalp, Sankau9@gmail.com, Test contact us )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_GiftCard_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06(1, 2, 1)">
+                  </a> <!-- TC06(1, 2, 1) -->
+                  <span class="method-name">TC06</span>
+                  <span class="parameters">(1, 2, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Books_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09(1, 2, 1)">
+                  </a> <!-- TC09(1, 2, 1) -->
+                  <span class="method-name">TC09</span>
+                  <span class="parameters">(1, 2, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Register_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01(Sankalp, Sangapur, Sanku123@gmail.com, Sanku@12345, Sanku@12345)">
+                  </a> <!-- TC01(Sankalp, Sangapur, Sanku123@gmail.com, Sanku@12345, Sanku@12345) -->
+                  <span class="method-name">TC01</span>
+                  <span class="parameters">(Sankalp, Sangapur, Sanku123@gmail.com, Sanku@12345, Sanku@12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Wishlist_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05">
+                  </a> <!-- TC05 -->
+                  <span class="method-name">TC05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Apparel_and_shoesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07(1, 2, 1)">
+                  </a> <!-- TC07(1, 2, 1) -->
+                  <span class="method-name">TC07</span>
+                  <span class="parameters">(1, 2, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_advanceserch_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10(computers, 2, 1, 1000, 5000)">
+                  </a> <!-- TC10(computers, 2, 1, 1000, 5000) -->
+                  <span class="method-name">TC10</span>
+                  <span class="parameters">(computers, 2, 1, 1000, 5000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom_testcase.DWS_Digital_DownloadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08(0, 1, 1)">
+                  </a> <!-- TC08(0, 1, 1) -->
+                  <span class="method-name">TC08</span>
+                  <span class="parameters">(0, 1, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\JAVA Program\Selenium_ELF39\RegressionPOM_testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pom_testcase.DWS_GiftCard_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Search_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_ContactUs_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_ComputersTest&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Register_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Digital_DownloadsTest&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_advanceserch_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Apparel_and_shoesTest&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Jewellery_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Vote_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Login_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Electronics_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Books_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_Wishlist_Test&quot;/&gt;
+      &lt;class name=&quot;pom_testcase.DWS_ShoppingCart_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC07')
+data.setCell(0, 2, 'pom_testcase.DWS_Apparel_and_shoesTest')
+data.setCell(0, 3, 5939);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC06')
+data.setCell(1, 2, 'pom_testcase.DWS_GiftCard_Test')
+data.setCell(1, 3, 4770);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC07')
+data.setCell(2, 2, 'pom_testcase.DWS_Jewellery_Test')
+data.setCell(2, 3, 3723);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC02')
+data.setCell(3, 2, 'pom_testcase.DWS_Login_Test')
+data.setCell(3, 3, 3201);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC09')
+data.setCell(4, 2, 'pom_testcase.DWS_Books_Test')
+data.setCell(4, 3, 2913);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC02')
+data.setCell(5, 2, 'pom_testcase.DWS_Login_Test')
+data.setCell(5, 3, 2889);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC08')
+data.setCell(6, 2, 'pom_testcase.DWS_Digital_DownloadsTest')
+data.setCell(6, 3, 2412);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC10')
+data.setCell(7, 2, 'pom_testcase.DWS_advanceserch_Test')
+data.setCell(7, 3, 1996);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC06')
+data.setCell(8, 2, 'pom_testcase.DWS_ComputersTest')
+data.setCell(8, 3, 1623);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test01')
+data.setCell(9, 2, 'pom_testcase.DWS_ContactUs_Test')
+data.setCell(9, 3, 1230);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC01')
+data.setCell(10, 2, 'pom_testcase.DWS_Register_Test')
+data.setCell(10, 3, 932);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC03')
+data.setCell(11, 2, 'pom_testcase.DWS_Search_Test')
+data.setCell(11, 3, 875);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC12')
+data.setCell(12, 2, 'pom_testcase.DWS_Electronics_Test')
+data.setCell(12, 3, 807);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC04')
+data.setCell(13, 2, 'pom_testcase.DWS_ShoppingCart_Test')
+data.setCell(13, 3, 635);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC05')
+data.setCell(14, 2, 'pom_testcase.DWS_Wishlist_Test')
+data.setCell(14, 3, 493);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC11')
+data.setCell(15, 2, 'pom_testcase.DWS_Vote_Test')
+data.setCell(15, 3, 104);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_GiftCard_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC06(1, 2, 1)</span>
+                <span class="method-start">5523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">10297 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Search_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">10538 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC03(Computers)</span>
+                <span class="method-start">14475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">15352 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_ContactUs_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">15589 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test01(Sankalp, Sankau9@gmail.com, Test contact us )</span>
+                <span class="method-start">19272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">20504 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_ComputersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">20756 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC06</span>
+                <span class="method-start">25489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">27113 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Register_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">27332 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC01(Sankalp, Sangapur, Sanku123@gmail.com, Sanku@12345, Sanku@12345)</span>
+                <span class="method-start">31685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">32618 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Digital_DownloadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">32849 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC08(0, 1, 1)</span>
+                <span class="method-start">36780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">39195 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_advanceserch_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">39429 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC10(computers, 2, 1, 1000, 5000)</span>
+                <span class="method-start">42718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">44715 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Apparel_and_shoesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">44960 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC07(1, 2, 1)</span>
+                <span class="method-start">51170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">57110 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Jewellery_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">57340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC07(1, 2, 1)</span>
+                <span class="method-start">60661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">64385 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Vote_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">64634 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC11</span>
+                <span class="method-start">68055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">68160 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">68383 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC02(Sanku123@gmail.com, Sanku@12345)</span>
+                <span class="method-start">72273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02(Sanku123@gmail.com, Sanku@12345)</span>
+                <span class="method-start">75163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">78365 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Electronics_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">78590 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC12</span>
+                <span class="method-start">82057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">82867 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Books_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">83116 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC09(1, 2, 1)</span>
+                <span class="method-start">86776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">89689 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_Wishlist_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">89897 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC05</span>
+                <span class="method-start">93435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">93930 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom_testcase.DWS_ShoppingCart_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsersetup</span>
+                <span class="method-start">94148 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC04</span>
+                <span class="method-start">97485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Turndown</span>
+                <span class="method-start">98120 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

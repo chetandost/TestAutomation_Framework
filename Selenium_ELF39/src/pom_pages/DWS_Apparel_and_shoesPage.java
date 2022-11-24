@@ -1,0 +1,63 @@
+package pom_pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import Framework_Utility.Utility_Methods;
+
+public class DWS_Apparel_and_shoesPage extends Utility_Methods {
+
+	
+	public DWS_Apparel_and_shoesPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+	
+	//Web elements
+		@FindBy(id="products-orderby")
+		WebElement sortBy_position_dropdown;
+		
+		@FindBy(id="products-pagesize")
+		WebElement display_dropdown;
+		
+		@FindBy(id="products-viewmode")
+		WebElement View_as;
+		
+		@FindBy(xpath="(//a[contains(text(),'Next')])[1]")
+		WebElement next;
+		
+		@FindBy(xpath="(//a[contains(text(),'Blue Jeans')])[1]")
+		WebElement product;
+		
+		@FindBy(xpath="(//input[@value='Add to cart'])[1]")
+		WebElement add_to_cart;
+		
+		//methods
+		public void sortby(String value) {
+			Select_by_index(sortBy_position_dropdown, value);
+		}
+
+		public void display_dropdown(String value) {
+			Select_by_index(sortBy_position_dropdown, value);
+		}
+		 
+		public void View_as(String value) {
+			Select_by_index(View_as, value);
+		}
+		
+		public void click_next() {
+			click_Element(next);
+		}
+		
+		public void click_prduct() {
+			click_Element(product);
+		}
+		
+		public void addTo_Cart_btn() {
+			click_Element(add_to_cart);
+		}
+
+
+}
+

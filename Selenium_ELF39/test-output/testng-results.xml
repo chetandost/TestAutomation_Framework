@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T17:48:52 IST" name="Suite" finished-at="2022-11-21T17:50:30 IST" duration-ms="98358">
+    <groups>
+    </groups>
+    <test started-at="2022-11-21T17:48:52 IST" name="Test" finished-at="2022-11-21T17:50:30 IST" duration-ms="98358">
+      <class name="pom_testcase.DWS_Vote_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Vote_Test@7bba5817]" started-at="2022-11-21T17:49:56 IST" name="Browsersetup" finished-at="2022-11-21T17:50:00 IST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC11()[pri:0, instance:pom_testcase.DWS_Vote_Test@7bba5817]" started-at="2022-11-21T17:50:00 IST" name="TC11" finished-at="2022-11-21T17:50:00 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Vote_Test@7bba5817]" started-at="2022-11-21T17:50:00 IST" name="Turndown" finished-at="2022-11-21T17:50:00 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Vote_Test -->
+      <class name="pom_testcase.DWS_Apparel_and_shoesTest">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Apparel_and_shoesTest@33065d67]" started-at="2022-11-21T17:49:37 IST" name="Browsersetup" finished-at="2022-11-21T17:49:43 IST" duration-ms="6125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Apparel_and_shoesTest@33065d67]" started-at="2022-11-21T17:49:43 IST" name="TC07" data-provider="DWS_Apparel_And_Shoes" finished-at="2022-11-21T17:49:49 IST" duration-ms="5939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Apparel_and_shoesTest@33065d67]" started-at="2022-11-21T17:49:49 IST" name="Turndown" finished-at="2022-11-21T17:49:49 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Apparel_and_shoesTest -->
+      <class name="pom_testcase.DWS_Search_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Search_Test@5149d738]" started-at="2022-11-21T17:49:02 IST" name="Browsersetup" finished-at="2022-11-21T17:49:06 IST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC03(java.lang.String)[pri:0, instance:pom_testcase.DWS_Search_Test@5149d738]" started-at="2022-11-21T17:49:06 IST" name="TC03" data-provider="searchtestdata" finished-at="2022-11-21T17:49:07 IST" duration-ms="875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Search_Test@5149d738]" started-at="2022-11-21T17:49:07 IST" name="Turndown" finished-at="2022-11-21T17:49:07 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Search_Test -->
+      <class name="pom_testcase.DWS_Wishlist_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Wishlist_Test@1c5920df]" started-at="2022-11-21T17:50:22 IST" name="Browsersetup" finished-at="2022-11-21T17:50:25 IST" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC05()[pri:0, instance:pom_testcase.DWS_Wishlist_Test@1c5920df]" started-at="2022-11-21T17:50:25 IST" name="TC05" finished-at="2022-11-21T17:50:26 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Wishlist_Test@1c5920df]" started-at="2022-11-21T17:50:26 IST" name="Turndown" finished-at="2022-11-21T17:50:26 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Wishlist_Test -->
+      <class name="pom_testcase.DWS_ShoppingCart_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_ShoppingCart_Test@17f9d882]" started-at="2022-11-21T17:50:26 IST" name="Browsersetup" finished-at="2022-11-21T17:50:29 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC04()[pri:0, instance:pom_testcase.DWS_ShoppingCart_Test@17f9d882]" started-at="2022-11-21T17:50:29 IST" name="TC04" finished-at="2022-11-21T17:50:30 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_ShoppingCart_Test@17f9d882]" started-at="2022-11-21T17:50:30 IST" name="Turndown" finished-at="2022-11-21T17:50:30 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_ShoppingCart_Test -->
+      <class name="pom_testcase.DWS_Electronics_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Electronics_Test@75437611]" started-at="2022-11-21T17:50:10 IST" name="Browsersetup" finished-at="2022-11-21T17:50:14 IST" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC12()[pri:0, instance:pom_testcase.DWS_Electronics_Test@75437611]" started-at="2022-11-21T17:50:14 IST" name="TC12" finished-at="2022-11-21T17:50:15 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Electronics_Test@75437611]" started-at="2022-11-21T17:50:15 IST" name="Turndown" finished-at="2022-11-21T17:50:15 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Electronics_Test -->
+      <class name="pom_testcase.DWS_Books_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Books_Test@350aac89]" started-at="2022-11-21T17:50:15 IST" name="Browsersetup" finished-at="2022-11-21T17:50:19 IST" duration-ms="3593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC09(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Books_Test@350aac89]" started-at="2022-11-21T17:50:19 IST" name="TC09" data-provider="DWS_Books" finished-at="2022-11-21T17:50:22 IST" duration-ms="2913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Books_Test@350aac89]" started-at="2022-11-21T17:50:22 IST" name="Turndown" finished-at="2022-11-21T17:50:22 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Books_Test -->
+      <class name="pom_testcase.DWS_ContactUs_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_ContactUs_Test@6bbe85a8]" started-at="2022-11-21T17:49:07 IST" name="Browsersetup" finished-at="2022-11-21T17:49:11 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="test01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_ContactUs_Test@6bbe85a8]" started-at="2022-11-21T17:49:11 IST" name="test01" data-provider="contact" finished-at="2022-11-21T17:49:12 IST" duration-ms="1230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sankalp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sankau9@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test contact us ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_ContactUs_Test@6bbe85a8]" started-at="2022-11-21T17:49:12 IST" name="Turndown" finished-at="2022-11-21T17:49:13 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_ContactUs_Test -->
+      <class name="pom_testcase.DWS_Login_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Login_Test@742ff096]" started-at="2022-11-21T17:50:00 IST" name="Browsersetup" finished-at="2022-11-21T17:50:04 IST" duration-ms="3840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC02(java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Login_Test@742ff096]" started-at="2022-11-21T17:50:04 IST" name="TC02" data-provider="logintestdata" finished-at="2022-11-21T17:50:07 IST" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanku123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanku@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method signature="TC02(java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Login_Test@742ff096]" started-at="2022-11-21T17:50:07 IST" name="TC02" data-provider="logintestdata" finished-at="2022-11-21T17:50:10 IST" duration-ms="3201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanku123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanku@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Login_Test@742ff096]" started-at="2022-11-21T17:50:10 IST" name="Turndown" finished-at="2022-11-21T17:50:10 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Login_Test -->
+      <class name="pom_testcase.DWS_Digital_DownloadsTest">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Digital_DownloadsTest@548d708a]" started-at="2022-11-21T17:49:25 IST" name="Browsersetup" finished-at="2022-11-21T17:49:29 IST" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC08(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Digital_DownloadsTest@548d708a]" started-at="2022-11-21T17:49:29 IST" name="TC08" data-provider="DWS_Digital_Downloads" finished-at="2022-11-21T17:49:31 IST" duration-ms="2412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Digital_DownloadsTest@548d708a]" started-at="2022-11-21T17:49:31 IST" name="Turndown" finished-at="2022-11-21T17:49:31 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Digital_DownloadsTest -->
+      <class name="pom_testcase.DWS_Register_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Register_Test@4be29ed9]" started-at="2022-11-21T17:49:19 IST" name="Browsersetup" finished-at="2022-11-21T17:49:23 IST" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Register_Test@4be29ed9]" started-at="2022-11-21T17:49:24 IST" name="TC01" data-provider="Register_testdata" finished-at="2022-11-21T17:49:24 IST" duration-ms="932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sankalp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sangapur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sanku123@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sanku@12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sanku@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Register_Test@4be29ed9]" started-at="2022-11-21T17:49:24 IST" name="Turndown" finished-at="2022-11-21T17:49:25 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Register_Test -->
+      <class name="pom_testcase.DWS_ComputersTest">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_ComputersTest@3a7442c7]" started-at="2022-11-21T17:49:13 IST" name="Browsersetup" finished-at="2022-11-21T17:49:17 IST" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC06()[pri:0, instance:pom_testcase.DWS_ComputersTest@3a7442c7]" started-at="2022-11-21T17:49:17 IST" name="TC06" finished-at="2022-11-21T17:49:19 IST" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_ComputersTest@3a7442c7]" started-at="2022-11-21T17:49:19 IST" name="Turndown" finished-at="2022-11-21T17:49:19 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_ComputersTest -->
+      <class name="pom_testcase.DWS_GiftCard_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_GiftCard_Test@75d3a5e0]" started-at="2022-11-21T17:48:52 IST" name="Browsersetup" finished-at="2022-11-21T17:48:57 IST" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC06(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_GiftCard_Test@75d3a5e0]" started-at="2022-11-21T17:48:57 IST" name="TC06" data-provider="DWS_GiftCard" finished-at="2022-11-21T17:49:02 IST" duration-ms="4770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_GiftCard_Test@75d3a5e0]" started-at="2022-11-21T17:49:02 IST" name="Turndown" finished-at="2022-11-21T17:49:02 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_GiftCard_Test -->
+      <class name="pom_testcase.DWS_advanceserch_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_advanceserch_Test@4b013c76]" started-at="2022-11-21T17:49:31 IST" name="Browsersetup" finished-at="2022-11-21T17:49:35 IST" duration-ms="3212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC10(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_advanceserch_Test@4b013c76]" started-at="2022-11-21T17:49:35 IST" name="TC10" data-provider="testdata" finished-at="2022-11-21T17:49:37 IST" duration-ms="1996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_advanceserch_Test@4b013c76]" started-at="2022-11-21T17:49:37 IST" name="Turndown" finished-at="2022-11-21T17:49:37 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_advanceserch_Test -->
+      <class name="pom_testcase.DWS_Jewellery_Test">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:pom_testcase.DWS_Jewellery_Test@712625fd]" started-at="2022-11-21T17:49:49 IST" name="Browsersetup" finished-at="2022-11-21T17:49:52 IST" duration-ms="3255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom_testcase.DWS_Jewellery_Test@712625fd]" started-at="2022-11-21T17:49:53 IST" name="TC07" data-provider="DWS_Jewellery" finished-at="2022-11-21T17:49:56 IST" duration-ms="3723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="Turndown()[pri:0, instance:pom_testcase.DWS_Jewellery_Test@712625fd]" started-at="2022-11-21T17:49:56 IST" name="Turndown" finished-at="2022-11-21T17:49:56 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Turndown -->
+      </class> <!-- pom_testcase.DWS_Jewellery_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
